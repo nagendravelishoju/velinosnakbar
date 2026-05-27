@@ -659,20 +659,20 @@ VELINO PRODUCT SECTION
                 <!-- PRODUCT 3 -->
                 <div onclick="openModal(
                 'Dry Fruit Bar',
-                'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80',
+                'https://i.postimg.cc/3Jn8xRmx/Whats-App-Image-2026-05-27-at-11-05-17-(1).jpg',
                 'Premium dry fruit millet snack bars with almonds, peanuts and dates.',
                 'Box of 3',
                 '₹240'
                 )"
                 class="min-w-[300px] bg-white rounded-[30px] overflow-hidden shadow-xl cursor-pointer hover:scale-105 transition duration-300">
 
-                    <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://i.postimg.cc/NjFg9ckQ/Whats-App-Image-2026-05-27-at-11-05-17.jpg"
                          class="w-full h-64 object-cover">
 
                     <div class="p-6 text-center">
 
                         <h3 class="text-2xl font-black mb-2 text-green-700/80">
-                            Dry Fruit Bar
+                            Velino Snack Bar
                         </h3>
 
                         <p class="text-[#8a6b22] font-semibold mb-2">
@@ -696,20 +696,20 @@ VELINO PRODUCT SECTION
                 <!-- PRODUCT 4 -->
                 <div onclick="openModal(
                 'Chocolate Millet Bar',
-                'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80',
+                'https://i.postimg.cc/BZjkKnr0/Whats-App-Image-2026-05-27-at-11-05-11.jpg',
                 'Chocolate flavored healthy millet energy bar naturally sweetened with jaggery.',
                 'Box of 3',
                 '₹240'
                 )"
                 class="min-w-[300px] bg-white rounded-[30px] overflow-hidden shadow-xl cursor-pointer hover:scale-105 transition duration-300">
 
-                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://i.postimg.cc/BZjkKnr0/Whats-App-Image-2026-05-27-at-11-05-11.jpg"
                          class="w-full h-64 object-cover">
 
                     <div class="p-6 text-center">
 
                         <h3 class="text-2xl font-black mb-2 text-green-700/80">
-                            Chocolate Millet Bar
+                            Velino Millet Bar
                         </h3>
 
                         <p class="text-[#8a6b22] font-semibold mb-2">
@@ -811,84 +811,97 @@ VELINO PRODUCT SECTION
     </div>
 
 </section>
-
-<!-- =========================
-CENTER POPUP MODAL
-========================= -->
+<!-- EXTRA SMALL MOBILE RESPONSIVE POPUP -->
 
 <div id="productModal"
-     class="fixed inset-0 bg-black/70 hidden 
-            items-center justify-center z-[9999] p-4">
+class="fixed inset-0 bg-black/85 hidden
+items-center justify-center z-[9999]
+p-2 overflow-y-auto">
 
     <!-- POPUP BOX -->
-    <div class="bg-white w-full max-w-4xl 
-                rounded-[40px] overflow-hidden 
-                relative shadow-2xl animate-popup">
+    <div class="bg-white w-full max-w-[340px] sm:max-w-md md:max-w-4xl
+    rounded-[22px] overflow-hidden relative
+    shadow-2xl animate-popup my-5">
 
         <!-- CLOSE BUTTON -->
         <button id="closeModalBtn"
-                class="absolute top-5 right-5 
-                       bg-red-500 hover:bg-red-600
-                       text-white w-12 h-12 rounded-full
-                       text-3xl flex items-center justify-center
-                       z-50 cursor-pointer">
+        class="absolute top-2 right-2
+        bg-red-500 hover:bg-red-600
+        text-white w-8 h-8
+        rounded-full text-xl
+        flex items-center justify-center
+        z-50 cursor-pointer">
 
             ×
 
         </button>
 
+        <!-- GRID -->
         <div class="grid md:grid-cols-2">
 
             <!-- IMAGE -->
             <div class="bg-gray-100">
 
                 <img id="modalImage"
-                     src=""
-                     class="w-full h-full object-cover">
+                src=""
+                class="w-full h-[180px] sm:h-[240px]
+                md:h-full object-cover">
 
             </div>
 
             <!-- CONTENT -->
-            <div class="p-10 flex flex-col justify-center">
+            <div class="p-4 sm:p-6 md:p-10
+            flex flex-col justify-center">
 
                 <h2 id="modalTitle"
-                    class="text-5xl font-black text-[#8a6b22] mb-5">
+                class="text-2xl sm:text-3xl md:text-5xl
+                font-black text-[#8a6b22]
+                mb-3 leading-tight">
                 </h2>
 
                 <p id="modalDescription"
-                   class="text-gray-700 text-lg leading-relaxed mb-6">
+                class="text-gray-700 text-sm md:text-lg
+                leading-relaxed mb-4">
                 </p>
 
-                <div class="mb-4">
+                <!-- PACK -->
+                <div class="mb-2">
 
-                    <span class="text-2xl font-black mb-2 bg-gradient-to-r 
-                    from-yellow-500 to-orange-500 
+                    <span class="text-lg md:text-2xl font-black
+                    bg-gradient-to-r from-yellow-500 to-orange-500
                     bg-clip-text text-transparent">
+
                         Pack:
+
                     </span>
 
                     <span id="modalPack"
-                          class="text-lg text-gray-700">
+                    class="text-sm md:text-lg text-gray-700">
                     </span>
 
                 </div>
 
-                <div class="mb-8">
+                <!-- PRICE -->
+                <div class="mb-4">
 
-                    <span class="text-2xl font-black mb-2 bg-gradient-to-r 
-                    from-yellow-500 to-orange-500 
+                    <span class="text-lg md:text-2xl font-black
+                    bg-gradient-to-r from-yellow-500 to-orange-500
                     bg-clip-text text-transparent">
+
                         Price:
+
                     </span>
 
                     <span id="modalPrice"
-                          class="text-3xl font-black text-green-600">
+                    class="text-xl md:text-3xl
+                    font-black text-green-600">
                     </span>
 
                 </div>
 
                 <!-- FEATURES -->
-                <div class="space-y-3 mb-8 text-gray-700">
+                <div class="space-y-1 mb-4
+                text-gray-700 text-xs sm:text-sm md:text-base">
 
                     <p>✅ No Preservatives</p>
                     <p>✅ Natural Ingredients</p>
@@ -897,12 +910,15 @@ CENTER POPUP MODAL
 
                 </div>
 
-                <!-- WHATSAPP -->
+                <!-- BUTTON -->
                 <a href="https://wa.me/917893897657"
-                   target="_blank"
-                   class="bg-[#8a6b22] hover:bg-[#6d5316]
-                          text-white py-4 rounded-2xl
-                          text-center font-bold text-lg transition">
+                target="_blank"
+                class="bg-[#8a6b22] hover:bg-[#6d5316]
+                text-white py-2.5 md:py-4
+                rounded-xl md:rounded-2xl
+                text-center font-bold
+                text-sm md:text-lg
+                transition">
 
                     Order On WhatsApp
 
@@ -1129,14 +1145,14 @@ WITH POPUP
             <!-- Almonds -->
             <div onclick="openIngredient(
             'Almonds',
-            'https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/SQZQyRWj/ms-almonds-in-bowl-getty-dbf3bf1a968b405d9d45de9d4b910709.jpg',
             'Rich in protein, vitamin E and healthy fats for energy and nutrition.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/SQZQyRWj/ms-almonds-in-bowl-getty-dbf3bf1a968b405d9d45de9d4b910709.jpg"
                          class="ingredient-image">
 
                 </div>
@@ -1154,14 +1170,14 @@ WITH POPUP
             <!-- Cashews -->
             <div onclick="openIngredient(
             'Cashews',
-            'https://images.unsplash.com/photo-1560780552-ba54682565b3?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/66H69qd3/Cashew-Nuts-Potential-Health-Benefits-Nutrition-Facts-And-Possible-Side-Effect-1200px-jpg.webp',
             'Loaded with minerals, healthy fats and creamy texture.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1560780552-ba54682565b3?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/66H69qd3/Cashew-Nuts-Potential-Health-Benefits-Nutrition-Facts-And-Possible-Side-Effect-1200px-jpg.webp"
                          class="ingredient-image">
 
                 </div>
@@ -1179,14 +1195,14 @@ WITH POPUP
             <!-- Dates -->
             <div onclick="openIngredient(
             'Dates',
-            'https://images.unsplash.com/photo-1590080877777-95f5f3f99e5d?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/ncCFMxkV/sweet-dates-out-wooden-bowl-marble-surface-1.webp',
             'Natural sweetener packed with energy, fiber and iron.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1590080877777-95f5f3f99e5d?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/ncCFMxkV/sweet-dates-out-wooden-bowl-marble-surface-1.webp"
                          class="ingredient-image">
 
                 </div>
@@ -1204,14 +1220,14 @@ WITH POPUP
             <!-- Peanuts -->
             <div onclick="openIngredient(
             'Peanuts',
-            'https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/02bkrvfk/singdana-small-e1754734206118.webp',
             'Excellent plant protein source with healthy crunch.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/02bkrvfk/singdana-small-e1754734206118.webp"
                          class="ingredient-image">
 
                 </div>
@@ -1229,14 +1245,14 @@ WITH POPUP
             <!-- Raisins -->
             <div onclick="openIngredient(
             'Raisins',
-            'https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/jq8qs2zd/golden-raisins.webp',
             'Naturally sweet dried grapes rich in antioxidants.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/jq8qs2zd/golden-raisins.webp"
                          class="ingredient-image">
 
                 </div>
@@ -1254,14 +1270,14 @@ WITH POPUP
             <!-- Jaggery -->
             <div onclick="openIngredient(
             'Jaggery',
-            'https://images.unsplash.com/photo-1615485291234-9fbc723f7c7a?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/HWSWpnQH/Best-Gur-and-Jaggery-cd71774c-942e-4cb1-a6d3-be5e9a56f444.webp',
             'Traditional sweetener rich in minerals and natural flavor.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1615485291234-9fbc723f7c7a?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/HWSWpnQH/Best-Gur-and-Jaggery-cd71774c-942e-4cb1-a6d3-be5e9a56f444.webp"
                          class="ingredient-image">
 
                 </div>
@@ -1279,14 +1295,14 @@ WITH POPUP
             <!-- Oats -->
             <div onclick="openIngredient(
             'Oats',
-            'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=500&q=80',
+            'https://i.postimg.cc/L6n9hSTs/oatsinstant-1024x1024-2x.webp',
             'Fiber rich grains supporting digestion and sustained energy.'
             )"
             class="ingredient-card">
 
                 <div class="ingredient-image-wrap">
 
-                    <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=500&q=80"
+                    <img src="https://i.postimg.cc/L6n9hSTs/oatsinstant-1024x1024-2x.webp"
                          class="ingredient-image">
 
                 </div>
